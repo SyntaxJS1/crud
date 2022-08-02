@@ -1,0 +1,46 @@
+:root{
+    --modalcolor: rgb(33, 171, 226);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 15fr;
+}
+span.first{
+    background: var(--modalcolor);
+    padding: 1rem auto;
+    height: 100vh;
+}
+div{
+    padding: 1rem;
+    color: white;
+}
+span.second{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+span.second form input{
+    padding: 1rem;
+}
+input[type="submit"]{
+    border-radius: 30px;
+    border: none;
+    background: var(--modalcolor);
+    color: white;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 1rem;
+}
+div.dropdown{
+    border: 1px solid white;
+}
+.active{
+    display: none;
+}

@@ -1,0 +1,10 @@
+<?php
+require_once("header.php");
+?>
+        <section>
+            <div></div>
+        </section>
+</main>
+<?php
+include("footer.php");
+?>
